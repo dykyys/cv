@@ -1,0 +1,10 @@
+.header {
+  display: none;
+  @include mq(tablet) {
+    display: block;
+  }
+}
+
+.header__list {
+  display: flex;
+}

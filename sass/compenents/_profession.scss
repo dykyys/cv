@@ -1,0 +1,26 @@
+.profession__container {
+  @include mq(desktop) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.profession__box {
+  @include mq(tablet) {
+    margin-bottom: 0;
+    flex-basis: 45%;
+  }
+  &:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+
+.profession__item {
+  &:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
+
+.profession__date {
+  border-bottom: 2px solid var(--primery-white-color);
+}

@@ -1,0 +1,8 @@
+.projects__link {
+  display: block;
+  &:hover,
+  &:focus {
+    text-shadow: var(--text-shadow);
+  }
+  transition: text-shadow var(--primery-transition);
+}

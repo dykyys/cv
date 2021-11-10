@@ -1,0 +1,33 @@
+.skills__container {
+  @include mq(tablet) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.skills__box {
+  margin-bottom: 30px;
+  @include mq(tablet) {
+    flex-basis: 59%;
+    margin-bottom: 0;
+  }
+  @include mq(desktop) {
+    flex-basis: 70%;
+  }
+}
+
+.soft-skills__list {
+  margin-bottom: 30px;
+}
+
+.technical__item:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.languages__item {
+  display: flex;
+}
+
+.languages__descr {
+  margin-left: auto;
+}
